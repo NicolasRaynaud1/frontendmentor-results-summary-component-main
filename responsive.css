@@ -1,0 +1,27 @@
+/* Desktop adaptation */
+@media (min-width: 750px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        flex-direction: row;
+        max-width: 650px;
+        margin-bottom: 3rem;
+        border-radius: 45px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    section {
+        width: 50%;
+    }
+
+    .main_section {
+        height: 100%;
+        border-radius: 45px;
+    }
+}
